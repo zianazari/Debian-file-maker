@@ -11,7 +11,7 @@ module_section="just set a string here"
 module_descryption="some descryption about your app or service"
 module_dependency="list of dependencies separated by comma. for example: sshfs,libpq-dev"
 version="1.0.0"
-email= "zianazari@ce.sharif.edu"
+email= "your email"
 # Create debian file structure
 dh_make --native --single --packagename ${module_name}_${version} --email ${email}
 
